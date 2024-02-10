@@ -32,7 +32,7 @@ namespace Webdev\Helloworld\Controller\Index;
         {
             /** INSERT */
 
-                 $this->_dataModel->setStudentName("test");
+                 /* $this->_dataModel->setStudentName("test");
                  $this->_dataModel->setStudentRollNo("111111");
                  $this->_dataModel->setStudentStatus(1);
                  try{
@@ -42,7 +42,7 @@ namespace Webdev\Helloworld\Controller\Index;
                      die($e->getMessage());
                  }
                 $this->_dataRepository->save($this->_dataModel);
-
+ */
 
             /** SELECT / READ */
 
